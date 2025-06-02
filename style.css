@@ -1,0 +1,60 @@
+.ppo{
+background: url(img/images3.jpg);
+background-size:cover;
+/* height:800px; */
+}
+
+body {
+	margin: 0;
+}
+.normal{
+	text-align:center;
+text-decoration:underline;
+font-family:Verdana;
+}
+.pou{
+color:black;
+}
+.ops{
+	color:blue;
+}
+.poss{
+	color:red;
+}
+.menu{
+	margin:0;
+    padding:0;
+    list-style:none;
+	font-family:Verdana;
+	display:inline-block;
+	margin-left:150px;
+}
+
+
+
+.menu li {
+	  display:inline-block;//в рядок 
+}
+.menu a{
+	display: block;
+text-decoration:none;
+font-size:20px;
+letter-spacing:2px;
+padding:20px;
+transition:all 0.5s;
+}
+.menu a:hover{
+	color:orange;
+	transform:scale(1.2);
+}
+
+.menu a.active{
+	color:orange;
+}
+.opro {
+	background-image:url(img/soul.jpg);
+	background-size:cover;
+	min-height:100vh;
+}
+.jop{
+	font-size:130px;
